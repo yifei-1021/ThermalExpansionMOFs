@@ -1,2 +1,2 @@
 # ThermalExpansionMOFs
-Data and Code for ThermalExpansion of MOFs
+Raw data for project on Thermal Expansion of MOFs
