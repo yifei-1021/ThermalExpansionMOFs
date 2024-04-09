@@ -1,0 +1,30 @@
+#############################  Equilibration  ###################################
+thermo_style 	custom step temp vol
+minimize        0.0 1.0e-3 1000 1000
+velocity        all create ${t} 331989 rot yes dist gaussian
+
+fix             1 all nvt temp ${t} ${t} ${tdamp}
+thermo          1000
+run             ${d1}
+unfix		1
+
+fix             1 all npt temp ${t} ${t} ${tdamp} tri ${p} ${p} ${pdamp}
+thermo          1000
+run             ${d2}
+
+reset_timestep  0
+#############################  Production ###################################
+variable        V       equal vol 		    #Volume variable
+variable        a	 	equal cella 		#Lattice variable
+variable        b	 	equal cellb 		#Lattice variable
+variable        c	 	equal cellc 		#Lattice variable
+fix 			4 all ave/time 1 ${d3} ${d3} v_V v_a v_b v_c ave running file results_${t}.txt overwrite 
+fix 			5 all ave/time 1 10000 10000 v_V v_a v_b v_c file summary_${t}.txt
+thermo          1000
+run             ${d3}
+
+unfix           1
+
+print "All done!"
+clear
+next t
