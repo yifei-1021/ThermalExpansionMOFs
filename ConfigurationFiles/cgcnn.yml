@@ -1,0 +1,11 @@
+# conda environments:
+#
+base                     /app1/bioinfo/miniconda/4.9
+cgcnn                 *  /home/svu/e0560134/.conda/miniconda/4.9/envs/cgcnn
+lammps                   /home/svu/e0560134/.conda/miniconda/4.9/envs/lammps
+mofdscribe               /home/svu/e0560134/.conda/miniconda/4.9/envs/mofdscribe
+molsimp                  /home/svu/e0560134/.conda/miniconda/4.9/envs/molsimp
+pacmof                   /home/svu/e0560134/.conda/miniconda/4.9/envs/pacmof
+phonopy                  /home/svu/e0560134/.conda/miniconda/4.9/envs/phonopy
+raspa2                   /home/svu/e0560134/.conda/miniconda/4.9/envs/raspa2
+

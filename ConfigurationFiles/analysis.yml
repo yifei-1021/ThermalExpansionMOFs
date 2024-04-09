@@ -1,0 +1,9 @@
+# conda environments:
+#
+base                     /apps/miniconda/3.9
+ice                      /home/yue/.conda/envs/ice
+lammps                *  /home/yue/.conda/envs/lammps
+lammps_interface         /home/yue/.conda/envs/lammps_interface
+pacmof                   /home/yue/.conda/envs/pacmof
+raspa                    /home/yue/.conda/envs/raspa
+
