@@ -1,0 +1,9 @@
+/home/yue/.bashrc: line 40: export: `/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.392.b08-4.el8_8.x86_64/jre': not a valid identifier
+/home/yue/.bashrc: line 43: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.392.b08-4.el8_8.x86_64/jre/bin/java: No such file or directory
+/home/yue/.bashrc: line 40: export: `/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.392.b08-4.el8_8.x86_64/jre': not a valid identifier
+/home/yue/.bashrc: line 43: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.392.b08-4.el8_8.x86_64/jre/bin/java: No such file or directory
+/home/yue/.bashrc: line 40: export: `/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.392.b08-4.el8_8.x86_64/jre': not a valid identifier
+/home/yue/.bashrc: line 43: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.392.b08-4.el8_8.x86_64/jre/bin/java: No such file or directory
+********************************************
+Input file is UiO-66 Running, Output file is UiO-66.out
+********************************************

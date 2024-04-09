@@ -1,0 +1,20 @@
+LAMMPS (2 Aug 2023)
+#========================= List of variables =========================#
+variable        t  index 100 200 300 400 500			# Temperature in Kelvin
+variable        p  index 1			# Pressure in atm
+variable        dt         equal 1.00
+variable        pdamp      equal 1000*${dt}
+variable        pdamp      equal 1000*1
+variable        tdamp      equal 100*${dt}
+variable        tdamp      equal 100*1
+variable        s  index 1					# Time step
+variable        k  index 10000				# snapshots interval
+variable        d1 index 200000			# NVT time (200 ns)
+variable        d2 index 200000			# NPT Equilibration time (400 ps)
+variable        d3 index 600000			# NPT Production time (1 ns)
+
+#========================== Force Field  =============================#
+
+
+
+log             log.HKUST-1 append

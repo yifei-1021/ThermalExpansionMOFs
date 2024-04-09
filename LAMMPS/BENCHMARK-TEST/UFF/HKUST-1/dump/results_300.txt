@@ -1,0 +1,3 @@
+# Time-averaged data for fix 4
+# TimeStep v_V v_a v_b v_c
+600000 34563.1 36.9845 36.9832 35.8077
